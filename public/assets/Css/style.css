@@ -166,8 +166,6 @@ span {
 }
 .home-image img  {
     width: 35vw;
-    background-color: var(--mainColor);
-    border-radius:  0 100px 0 100px;
 }
 .social-media a {
     display: inline-flex;
@@ -194,8 +192,6 @@ span {
 /* Start about */
 .about-img img {
     width: 35vw;
-    background-color: var(--mainColor);
-    border-radius:  100px 0 100px 0;
 }
 .about {
     display: flex;

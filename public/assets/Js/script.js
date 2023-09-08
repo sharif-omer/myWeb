@@ -4,14 +4,15 @@ let text = document.querySelector(".sec-text");
 
 let textLoad = () =>  {
     setTimeout(() => {
-        text.textContent = "FrontEnd";
+        text.textContent = "Web developer";
     }, 0);
     setTimeout(() => {
-        text.textContent = "Youtuber";
+        text.textContent = "Content creator";
         }, 4000);
     setTimeout(() => {
-        text.textContent = "Text Content";
+        text.textContent = "Offer online courses";
     }, 8000);
+    
 }
 textLoad();
 setInterval(textLoad, 12000);
@@ -21,16 +22,16 @@ setInterval(textLoad, 12000);
 /* ======== scroll Up ======== */
 
 let scrollUp = document.querySelector(".up")
- window.onscroll = function()  {
-
- this.scrollY >= 1000 ? scrollUp.classList.add("show") : scrollUp.classList.remove("show");
- };
- scrollUp.onclick = function() {
- window.scrollTo({
-     top: 0,
-     behavior: "smooth",
- });
- };
+     window.onscroll = function()  {
+  
+    this.scrollY >= 1000 ? scrollUp.classList.add("show") : scrollUp.classList.remove("show");
+   };
+   scrollUp.onclick = function() {
+   window.scrollTo({
+       top: 0,
+       behavior: "smooth",
+   });
+   };
 
 /* ======== Toggle Icon Navbar ======== */
 

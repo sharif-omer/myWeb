@@ -15,12 +15,9 @@
 <body>
     <!--Start Header Design -->
     <header class="header">
-        <a href="#home"><img src="assets/images/logo.jpg" alt="logo" class="logo"></a>
+        <a href="#home"><img src="{{asset('assets/images/logo.jpg')}}" alt="logo" class="logo"></a>
 
-        <!-- <i class='fa fa-menu' id="menu-icon">menu</i> -->
-        <!-- <i class="fa fa-bars"onclick="showMenu()"> </i> -->
-        <!-- <i class="fa fa-times" onclick="hidMenu()"></i> -->
-    
+     <i class='bx bx-menu' id="menu-icon"></i>    
         <nav class="navbar">
             <a href="#home" class="active">home</a>
             <a href="#about">about me</a>
@@ -35,11 +32,15 @@
      
      <!--Start Home Section -->
      <section class="home" id="home">
+
+        <div class="home-image">
+            <img src="{{asset('assets/images/profile.png')}}" alt="Sharif">
+         </div>
+
          <div class="home-contect">
              <h3>Hello, my name is</h3>
         <h1>Sharif Omer</h1>
 
-        <!-- <h3>I'M a <span class="first-text"></span></h3> -->
 <div class="multiple-text">
   <span class="text first-text">I'M a </span>
   <span class="text sec-text"></span>
@@ -71,17 +72,13 @@
 
      </div>
 
-     <div class="home-image">
-        <img src="{{asset('assets/images/Sharif-1.png')}}" alt="Sharif">
-     </div>
+     
    </section>
     <!--End Home Section -->
 
     <!--Start About Section -->
  <section class="about" id="about">
-   <div class="about-img">
-      <img src="{{asset('assets/images/two.png')}}" alt="">
-   </div>
+   
    <div class="about-content">
     <h2 class="heading">About <span>Me</span></h2>
     <h3>Frontend developer</h3>
@@ -94,6 +91,10 @@
         </p>
         <a href="#" class="btn">Read More</a>
    </div>
+
+   <div class="about-img">
+    <img src="{{asset('assets/images/home.png')}}" alt="">
+ </div>
  </section>
 
   <!-- Start Skills -->
@@ -171,7 +172,7 @@
 
  <!-- Start Services -->
  <section class="services" id="services">
-    <h2 class="heading">Our <span>Services</span></h2>
+    <h2 class="heading">My <span>Services</span></h2>
     <div class="services-container">
         <div class="services-box">
             <a href=""><i class="fa fa-code i-red" ></i></a>
@@ -312,12 +313,10 @@
 
    <!-- Custom JavaScript -->
 
- 
-   
-
     <script src="{{asset('assets/js/script.js')}}"></script>
     <script src="{{asset('assets/js/typed.min.js')}}"></script>
 
     
+   
 </body>
 </html>
