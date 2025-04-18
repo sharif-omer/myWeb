@@ -4,13 +4,13 @@ let text = document.querySelector(".sec-text");
 
 let textLoad = () =>  {
     setTimeout(() => {
-        text.textContent = "Web developer";
+        text.textContent = "Web Developer";
     }, 0);
     setTimeout(() => {
-        text.textContent = "Content creator";
+        text.textContent = "Content Creator";
         }, 4000);
     setTimeout(() => {
-        text.textContent = "Offer online courses";
+        text.textContent = "Offer Online Courses";
     }, 8000);
     
 }
